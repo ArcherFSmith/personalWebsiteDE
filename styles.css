@@ -1,0 +1,14 @@
+body {
+	background-color: black;
+}
+
+.pageTitle {
+	font-size: 56px;
+	color: Orange;
+    text-align: center;
+}
+
+.pageTitleSubtext {
+	color: orange;
+    text-align: center;
+}

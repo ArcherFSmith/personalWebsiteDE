@@ -1,0 +1,10 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/archeguf/public_html/
+ - /bin/rm -Rf $DEPLOYPATH
+ - /bin/mkdir $DEPLOYPATH
+ - /bin/cp index.html $DEPLOYPATH
+ - /bin/cp styles.css $DEPLOYPATH
+ - /bin/cp portfolio.html $DEPLOYPATH
+ - /bin/cp other.html $DEPLOYPATH
